@@ -21,7 +21,7 @@ export const sky = (function() {
         {
           textureWidth: 2048,
           textureHeight: 2048,
-          waterNormals: new THREE.TextureLoader().load( '../public/Ice.png', function ( texture ) {
+          waterNormals: new THREE.TextureLoader().load( '../assets/Ice.png', function ( texture ) {
 
             texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
