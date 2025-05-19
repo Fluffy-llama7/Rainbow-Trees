@@ -185,7 +185,7 @@ export const terrain = (function() {
 
       //load snow texture
       const loader = new THREE.TextureLoader();
-      const snow_tex = loader.load('../public/Snow_seamless.jpg');
+      const snow_tex = loader.load('./Snow_seamless.jpg');
 
 
       //initialization of plane based on params
