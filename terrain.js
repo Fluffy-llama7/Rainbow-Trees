@@ -195,7 +195,7 @@ export const terrain = (function() {
           new THREE.PlaneGeometry(size.x, size.z, params.resolution, params.resolution),
           new THREE.MeshStandardMaterial(
             {
-              map: snow_tex
+              color: 0xffffff
             }
           ));
 
